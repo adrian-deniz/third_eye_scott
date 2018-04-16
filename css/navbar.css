@@ -1,0 +1,169 @@
+body {
+  background-color:  #F7F7F7;
+  margin: 0;
+}
+
+a {
+  color: #333;
+  font-family: 'cabin Sketch';
+  text-decoration: none;
+}
+
+
+.toggle-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.fa-bars {
+  align-self: center;
+  font-size: 4.5vw;
+  color: #333;
+}
+
+.logo {
+  font-family: 'Monoton', serif;
+  text-decoration: none;
+  text-align: center;
+  font-size: 6vw;
+  margin-left: 5vw;
+  color: #333;
+}
+
+.nav-container {
+  height: 500px;
+  background-image: url(../img/third_eye_scott_5.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 30px;
+}
+
+nav {
+  display: flex;
+  visibility: hidden;
+  flex-direction: column;
+  text-align: center;
+  height: 500px;
+}
+
+.navbtn {
+  font-family: 'Cabin Sketch', cursive;
+  text-decoration: none;
+  color: #CD4F1C;
+  font-size: 500%;
+  flex-grow: 1;
+  background-color: #F7F7F7;
+  opacity: 0.8;
+}
+
+.navbtn:hover {
+  color: #333;
+}
+
+.biobtn {
+  position: relative;
+  top: -75px;
+  text-align: center;
+  font-size: 34px;
+}
+
+ .biobtn a, .storebtn a, .gallerybtn a{
+color: #333;
+font-family: 'cabin Sketch';
+background-color: white;
+padding: 0px 18px;
+border-radius: 8%;
+opacity: 0.8;
+font-weight: bold;
+}
+
+
+.store-logo {
+  font-family: 'monoton';
+  font-size: 50px;
+  text-align: center;
+  color: #CD4F1C;"
+}
+
+.store-container {
+  height: 500px;
+  background-image: url(../img/third_eye_scott_4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 30px;
+}
+
+.storebtn {
+  position: relative;
+  top: -75px;
+  color: white;
+  text-align: center;
+  font-size: 34px;
+}
+
+.gallery-logo {
+  font-family: 'monoton';
+  font-size: 50px;
+  text-align: center;
+  color: #CD4F1C;"
+}
+
+.gallery-container {
+  background-image: url(../img/third_eye_scott_3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  margin: 30px;
+}
+
+.gallerybtn {
+  position: relative;
+  top: -75px;
+  color: #F7F7F7;
+  text-align: center;
+  font-size: 34px;
+}
+
+footer {
+  text-align: center;
+  background-color: #333;
+  padding: 0;
+  margin: 0;
+}
+
+.fa-facebook  {
+    color: white;
+    font-size: 70px;
+    text-decoration: none;
+}
+.fa-facebook:hover {
+    text-decoration: none;
+    color: #3B5998;
+
+}
+
+.fa-instagram {
+    color: white;
+    font-size: 70px;
+    margin: 5px 30px;
+    text-decoration: none;
+}
+.fa-instagram:hover {
+    text-decoration: none;
+    color: black;
+}
+.fa-snapchat-square{
+    color: white;
+    font-size: 70px;
+    text-decoration: none;
+}
+.fa-snapchat-square:hover {
+    text-decoration: none;
+    color: #fffc00;
+}
+
+.copyright  {
+  color: white;
+  margin: 0;
+}

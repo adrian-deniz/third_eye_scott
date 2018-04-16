@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  background-color:  #F7F7F7;
+  padding: 0;
+}
+
+.nav-container {
+  display: grid;
+  grid-template-columns: 9% auto 9%;
+}
+
+
+nav {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  justify-items: center;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.logo {
+  text-decoration: none;
+  font-size: 1.4vw;
+  font-family: 'Monoton', serif;
+}
+
+.navbtn {
+  text-decoration: none;
+  color: #CD4F1C;
+  font-size: 1.8vw;
+  font-family: 'Cabin Sketch', cursive;
+}
+
+
+label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+.header-container {
+  display: grid;
+  grid-template-columns: 9% auto auto 9%;
+}
+
+header {
+  background-image: url(../img/third_eye_scott_5.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  padding-top: 150px;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  padding: 0;
+  margin: 30px;
+}
+
+.jumbo{
+  font-size: 100px;
+  color: #F7F7F7;
+  text-shadow: 2px 2px black;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'monoton';
+  grid-column-start: 2;
+  grid-column-end: 4;
+  margin: 3px;
+}
+
+.store {
+  background-image: url(../img/third_eye_scott_4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  text-align: center;
+
+}
+
+.store-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #F7F7F7;
+  text-decoration: none;
+  font-family: 'cabin Sketch';
+  text-align: center;
+  font-size: 34px;
+  position: relative;
+  top: -55px;
+}
+
+
+
+@media (max-width:576px) {
+  .nav-container {
+    grid-template-columns: 14% auto 14%;
+  }
+
+  nav {
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+
+  nav a:not(:first-child) {
+    display: none;
+  }
+
+  .logo {
+    font-size: 6vw;
+  }
+
+  header {
+    background-image: url(../img/third_eye_scott_5_mobile.jpg);
+  }
+
+  .jumbo {
+    font-size: 50px;
+  }
+
+
+}
+.fa-bars {
+  text-align: center;
+  align-self: center;
+}
+
+navicon:before, .fa-reorder:before, .fa-bars:before {
+    font-size: 8vw;
+}
